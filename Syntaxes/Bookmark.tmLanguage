@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>injectionSelector</key>
+	<string>comment, text.plain</string>
+	<key>name</key>
+	<string>Bookmark</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?&lt;=\#|\/\/)\s*(\!)(.*?)(?=\n)</string>
+			<key>name</key>
+			<string>storage.type.class.bookmark</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.bookmark</string>
+	<key>uuid</key>
+	<string>8FEAAD72-01E3-4F00-BD4D-A6295C20D2E9</string>
+</dict>
+</plist>

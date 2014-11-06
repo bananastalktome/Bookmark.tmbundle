@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>source</key>
+	<dict>
+		<key>url</key>
+		<string>git@github.com:bananastalktome/Bookmark.tmbundle</string>
+		<key>method</key>
+		<string>git</string>
+	</dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Billy Schneider</string>
+	<key>description</key>
+	<string>Adds custom bookmarks to the symbols list.</string>
+	<key>name</key>
+	<string>Bookmark</string>
+	<key>uuid</key>
+	<string>CC0D5AC8-AF75-454A-BB57-AA8B79695ED5</string>
+</dict>
+</plist>
