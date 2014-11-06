@@ -9,15 +9,15 @@
 		<key>method</key>
 		<string>git</string>
 	</dict>
-	<key>contactEmailRot13</key>
-	<string></string>
 	<key>contactName</key>
 	<string>Billy Schneider</string>
+	<key>uuid</key>
+	<string>CC0D5AC8-AF75-454A-BB57-AA8B79695ED5</string>
+	<key>contactEmailRot13</key>
+	<string>onananfgnyxgbzr@tznvy.pbz</string>
 	<key>description</key>
 	<string>Adds custom bookmarks to the symbols list.</string>
 	<key>name</key>
 	<string>Bookmark</string>
-	<key>uuid</key>
-	<string>CC0D5AC8-AF75-454A-BB57-AA8B79695ED5</string>
 </dict>
 </plist>
