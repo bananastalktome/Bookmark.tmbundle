@@ -11,18 +11,30 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>comment</string>
-				</dict>
-			</dict>
+			<key>comment</key>
+			<string>This is the generic bookmark matcher</string>
 			<key>match</key>
 			<string>(?&lt;=\#|\/\/)\s*(\!)(.*?)(?=\n)</string>
 			<key>name</key>
 			<string>storage.type.class.bookmark</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(?&lt;=\/\*)\s*(\!)</string>
+			<key>comment</key>
+			<string>For 'PHP', 'CSS', or other languages using /* .. */ for comments</string>
+			<key>end</key>
+			<string>.(?=\n|\*\/)</string>
+			<key>name</key>
+			<string>storage.type.class.bookmark.php</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(?&lt;=\&lt;\!\-\-)\s*(\!)</string>
+			<key>end</key>
+			<string>.(?=\n|\-\-\&gt;)</string>
+			<key>name</key>
+			<string>storage.type.class.bookmark.html</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

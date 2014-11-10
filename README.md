@@ -2,8 +2,9 @@ Bookmark.tmbundle
 =================
 Create bookmarks through comments which show in the symbol browser.
 ## Usage
-Works with languages where single-line comments start with `//` or `#`
-In single-line comments, add a `!` before any non-whitespace characters to create a bookmark. The text you enter after the `!` will be the label for the bookmark in the symbol browser.
+Works in languages where single-line comments start with `//` or `#`, as well as those using `/* ... */` or `<!-- ... -->`.
+
+To create a symbol bookmark, add a `!` at the beginning of the comment before any non-whitespace characters. The text you enter after the `!` will be the label for the bookmark in the symbol browser.
 
 ## Example
 
@@ -35,6 +36,12 @@ In single-line comments, add a `!` before any non-whitespace characters to creat
       ...
     }
     ...
+    /*!
+        this method is too long, come back and refactor
+    */
+    function another_long_method(){
+      ...
+    }
 
 ## Installation
 First, ensure the TextMate bundle directory exists, and create it if it doesn't:
