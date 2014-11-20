@@ -16,7 +16,7 @@
 			<key>match</key>
 			<string>(?&lt;=\#|\/\/)\s*(\!)(.*?)(?=\n)</string>
 			<key>name</key>
-			<string>storage.type.class.bookmark</string>
+			<string>comment.bookmark</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -26,7 +26,7 @@
 			<key>end</key>
 			<string>.(?=\n|\*\/)</string>
 			<key>name</key>
-			<string>storage.type.class.bookmark.php</string>
+			<string>comment.bookmark.php</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -34,7 +34,7 @@
 			<key>end</key>
 			<string>.(?=\n|\-\-\&gt;)</string>
 			<key>name</key>
-			<string>storage.type.class.bookmark.html</string>
+			<string>comment.bookmark.html</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

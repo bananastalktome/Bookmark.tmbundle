@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List: Bookmark</string>
 	<key>scope</key>
-	<string>comment storage.type.class.bookmark</string>
+	<string>comment comment.bookmark</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
